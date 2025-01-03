@@ -1,0 +1,19 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.1">
+    <servlet>
+        <servlet-name>BookRegistrationServlet</servlet-name>
+        <servlet-class>com.example.onlinebookstore.BookRegistrationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BookRegistrationServlet</servlet-name>
+        <url-pattern>/registerBook</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DisplayBooksServlet</servlet-name>
+        <servlet-class>com.example.onlinebookstore.DisplayBooksServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DisplayBooksServlet</servlet-name>
+        <url-pattern>/displayBooks</url-pattern>
+    </servlet-mapping>
+</web-app>
